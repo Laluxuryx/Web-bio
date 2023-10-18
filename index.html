@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b801578fa3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>ogTropical</title>
+</head>
+
+<body>
+    <div id="clickanywhere">
+        <p>TH | TropicalEU</p><br>
+    </div>
+    <div class="container">
+        <h2>ogTropical</h2>
+        <a target="_blank"href="discord.gg/isaenl"><i class="fa-brands fa-discord"></i></a>
+        <a target="_blank" href="https://www.paypal.com/paypalme/paypaltropical"><i class="fa-brands fa-paypal"></i></a>
+        <a target="_blank" href="https://www.youtube.com/@TropicalEuu"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <audio id="song" loop>
+        <source src="https://cdn.discordapp.com/attachments/1149265137266589719/1163860070841454663/Sha_Ek_Feat_SugarHill_Keem_Edot_Baby_Touch_The_Ground_Official_Video.mp3?ex=65411c28&is=652ea728&hm=a9a042d4150521dafb711b6fd0f8e773ff9b9cbab17109c7832302922a936c41&" type="audio/mpeg">
+    </audio>
+    <script>
+        document.addEventListener("click", function () {
+            var clickAnywhereElement = document.getElementById("clickanywhere");
+            clickAnywhereElement.style.opacity = "0";
+            setTimeout(function () {
+                clickAnywhereElement.style.display = "none";
+            }, 500);
+            document.getElementById("song").play();
+        });
+    </script>
+</body>
+
+</html>

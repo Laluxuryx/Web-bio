@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/minecraftia');
+
+* {
+    font-family: 'Minecraftia', cursive;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    cursor: url('https://cdn.discordapp.com/attachments/1149265137266589719/1163088716613558444/plus.png?ex=653e4dc7&is=652bd8c7&hm=29e818d1550997c46af2c58c66f884708f16b4d99d67abc0ba625eef89b7f064&'), auto;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#clickanywhere {
+    background-color: #080808;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0.95;
+}
+
+
+body {
+    background-image: url('https://cdn.discordapp.com/attachments/1162727015070318744/1163862047847624735/neon-gas-station-k8c40zdo7i6ehdz2.png?ex=65411dff&is=652ea8ff&hm=a1484392a5a5f7ea331e8bdbc2bd0cf5c10872da039e39d32a4c29c987b42df3&');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 50px 15px #ffffff;
+}
+
+h2, a {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+
+i:hover {
+    color: #606060;
+}
+
